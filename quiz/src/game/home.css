@@ -1,0 +1,86 @@
+.game-container{
+    color:rgb(47, 14, 66);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    background: linear-gradient(#2f0442,#9C3587, #3F1651    );
+}
+
+.score{
+    position: relative;
+    top:-40vh;
+    width:2vh;
+    font-size: 2vh;
+    font-family: cursive;
+    /* background-color:#9C3587 ; */
+}
+
+.word-tiles {
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.word-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vh;
+    height: 10vh;
+    border: 1px solid black;
+    margin: 0 1vh;
+    font-size: 5vh;
+    background-color: rgba(255, 255, 255, 0.436);
+    border-radius: 50%;
+}
+
+.question > h1{
+    display: flex;
+    margin:2vh;
+    justify-content:center;
+    align-items:center;
+    width:80%;
+    font-size: 5vh;
+    height:20vh;
+    font-family: cursive;
+}
+
+.letter-tiles > p >button{
+    width: 10vh;
+    height: 10vh;
+    border: 1px solid black;
+    margin: 0 1vh;
+    font-size: 5vh;
+    background-color: rgba(255, 255, 255, 0.436);
+    border-radius: 50%;
+}
+.letter-tiles > p{
+    margin: 0 1vh;
+    font-size: 3vh;
+    font-family: cursive;
+}
+
+.container > button {
+    margin-top:2vh;
+    margin-right: 50vh;
+    margin-bottom: 5vmax;
+  cursor: pointer;
+  background-color: #653780;
+  border-radius:5px;
+  border: 1px solid white;
+  padding: 1vmax;
+  transition: all 0.8s;
+  width: 15vmax;
+  font: 500 1vmax "Roboto";
+  
+}
+.container > button:hover{
+    background-color: #3F1651;
+  /* background-color: #24305E; */
+  color: white;
+}
+
+.two{
+   padding: 2vh    
+}
